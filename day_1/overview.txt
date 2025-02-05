@@ -1,0 +1,4 @@
+HTML - Basic pages (Layout, tables, lists)
+CSS - Basic styling, (libraries - Bootstrap, tailwind etc)
+JS - Basics of language, DOM manipulation
+ReactJS - JS library
