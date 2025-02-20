@@ -1,0 +1,3 @@
+- make a website that showcases you
+- use basic html components (heading, para, bold, lists, images, tables etc)
+- add multiple pages (about, contact, skills)
