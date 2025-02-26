@@ -1,0 +1,3 @@
+- improve the website about yourself with CSS
+- add your hobbies, interests etc
+- use a form for getting contact information of visitor
