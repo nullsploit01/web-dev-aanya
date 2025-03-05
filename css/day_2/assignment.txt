@@ -1,0 +1,3 @@
+- Improve your website with selectors and CSS
+- Create a page, where all the para has font italic, headings have underlines, and links have color red
+- Create a page that showcases different desserts, add images and use css to make it attractive

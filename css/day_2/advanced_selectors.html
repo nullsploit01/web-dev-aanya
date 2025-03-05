@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Selectors</title>
+  </head>
+
+  <style>
+    p {
+      color: blue;
+    }
+
+    div p {
+      color: brown;
+    }
+
+    h2 ~ p {
+      color: burlywood;
+    }
+
+    h2 + h3 {
+      color: burlywood;
+    }
+
+    input[type="text"] {
+      border: 3px solid red;
+    }
+
+    input[type="number"] {
+      border: 3px solid brown;
+    }
+
+    input {
+      border: 3px solid blue;
+    }
+  </style>
+  <body>
+    <div>
+      <section>
+        <p>I am a brown zebra</p>
+      </section>
+      <p>I am a brown fox</p>
+      <p>I am a blue bear</p>
+    </div>
+    <p>I am a blue fox</p>
+
+    <h2>Some Heading</h2>
+    <p>Some Paragraph</p>
+    <p>Some Paragraph 2</p>
+
+    <h2>Another Heading</h2>
+    <h3>Smaller Heading</h3>
+
+    <form>
+      <input type="text" placeholder="Name" />
+      <input type="number" placeholder="Age" />
+      <input type="date" placeholder="DOB" />
+    </form>
+  </body>
+</html>
