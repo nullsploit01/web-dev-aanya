@@ -1,0 +1,22 @@
+/* button:hover {
+  background-color: red;
+  color: blue;
+} */
+
+button:active {
+  background-color: red;
+  color: blue;
+}
+
+input:focus {
+  border: 2px solid red;
+  outline: none;
+}
+
+a:active {
+  color: brown;
+}
+
+a:visited {
+  color: blueviolet;
+}

@@ -1,0 +1,19 @@
+/* p:first-child {
+  color: red;
+}
+
+p:last-child {
+  color: brown;
+} */
+
+/* p:nth-child(odd) {
+  color: pink;
+}
+
+p:nth-child(even) {
+  color: blue;
+} */
+
+p:only-child {
+  font-style: italic;
+}

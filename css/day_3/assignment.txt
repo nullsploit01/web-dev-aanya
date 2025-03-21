@@ -1,0 +1,5 @@
+- write css to create a left and right triangle
+- write css to create a basic house, with roof and walls
+- create a website to showcase any tourist location, 
+    - should show its images, features, attractions, food.
+- improve your website
