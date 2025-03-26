@@ -1,0 +1,3 @@
+- Make a colony if 5-6 houses positioned properly
+- try to use positions to properly place images and text in your website
+- make a website to showcase different types of food

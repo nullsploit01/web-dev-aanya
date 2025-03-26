@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: sticky;
+  top: -20px;
+  left: 20px;
+  height: 500px;
+  width: 500px;
+  background: rebeccapurple;
+}
+
+.greenBox {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.redBox {
+  position: absolute;
+  top: 50px;
+  left: 900px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.blueBox {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.yellowBox {
+  position: absolute;
+  top: 350px;
+  left: 900px;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+/* .container {
+  top: 50px;
+  position: static;
+  height: 500px;
+  width: 500px;
+  background-color: aquamarine;
+}
+
+.text {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  background-color: blanchedalmond;
+} */
