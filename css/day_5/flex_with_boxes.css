@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  background: gray;
+  place-content: center;
+  place-items: center;
+  flex-direction: row;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+}
+
+.row {
+  /* display: flex; */
+  justify-content: space-evenly;
+  width: 100vh;
+}
