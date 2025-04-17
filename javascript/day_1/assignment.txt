@@ -1,0 +1,2 @@
+improve website with flex
+check if a numer divisible by any number (number1 and number2)
