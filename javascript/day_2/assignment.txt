@@ -1,0 +1,4 @@
+- create a function to check if a number is prime
+- create a function to check if a string is palindrome
+- create a function to check if a number is prime
+- create a simple calculator with add, substract, multiply, divide functions 
