@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxes</title>
+
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+      }
+
+      .red-bg {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Boxes</h2>
+    <button id="btn">Add Box</button>
+
+    <div id="boxes"></div>
+    <script>
+      const btn = document.getElementById("btn");
+      const boxes = document.getElementById("boxes");
+
+      const boxNode = "<div class='box red-bg'></div>";
+
+      btn.onclick = () => {
+        boxes.innerHTML += boxNode;
+      };
+    </script>
+  </body>
+</html>

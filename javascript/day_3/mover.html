@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mover</title>
+  </head>
+  <body>
+    <h2>Mover</h2>
+    <button id="btn">Try to click me twice</button>
+
+    <script>
+      const btn = document.getElementById("btn");
+
+      let marginX = 0;
+      let marginY = 0;
+
+      btn.onclick = () => {
+        marginX = (marginX + 200) % window.innerWidth;
+        marginY = (marginY + 200) % window.innerHeight;
+        btn.style.margin = `${marginX}px ${marginY}px`;
+      };
+    </script>
+  </body>
+</html>

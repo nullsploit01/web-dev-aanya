@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click</title>
+
+    <style>
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Click Me!</h2>
+    <button id="btn">Button</button>
+
+    <script>
+      const string = "Hello!";
+      const btn = document.getElementById("btn");
+
+      //   btn.innerHTML = "Do NOT Click Me!";
+      //   btn.className = "red";
+
+      // event
+      let numberOfClicks = 0;
+      btn.onclick = () => {
+        numberOfClicks += 1;
+
+        if (numberOfClicks >= 5) {
+          btn.className = "red";
+          btn.innerHTML = "Dont Click Anymore";
+        }
+      };
+    </script>
+  </body>
+</html>
