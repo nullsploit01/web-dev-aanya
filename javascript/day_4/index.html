@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Events</title>
+    <style></style>
+  </head>
+  <body>
+    <button id="btn">Click Me!</button>
+    <p id="text">Some text</p>
+
+    <script>
+      const btnElement = document.getElementById("btn");
+      const textElement = document.getElementById("text");
+
+      btnElement.onclick = () => {
+        textElement.innerText = "Some other text";
+      };
+    </script>
+  </body>
+</html>

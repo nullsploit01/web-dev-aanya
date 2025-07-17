@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxes</title>
+  </head>
+  <body>
+    <button id="btn">Click me</button>
+    <div id="boxes"></div>
+
+    <script>
+      const btn = document.getElementById("btn");
+      const boxes = document.getElementById("boxes");
+
+      const textNode = "<p>Some Text via script </p>";
+      const box = "<div class='box'></div>";
+
+      btn.onclick = () => {
+        boxes.innerHTML += textNode;
+      };
+    </script>
+  </body>
+</html>
